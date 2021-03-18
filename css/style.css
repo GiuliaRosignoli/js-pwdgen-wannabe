@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgb(67, 83, 177);
+}
+
+.box h1 {
+    padding: 40px;
+    font-size: 25px;
+    color: rgb(17, 13, 13);
+    text-align: center;
+}
