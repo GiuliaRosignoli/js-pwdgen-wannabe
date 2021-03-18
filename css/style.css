@@ -2,18 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .box {
-    width: 600px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 670px;
     margin: 0 auto;
-    background-color: rgb(67, 83, 177);
+    background-color: rgb(3, 3, 75);
 }
 
 .box h1 {
-    padding: 40px;
-    font-size: 25px;
-    color: rgb(17, 13, 13);
-    text-align: center;
+    padding: 25px;
+    font-size: 34px;
+    color: rgb(0, 119, 255);
 }
+
+.box h2 {
+    padding: 18px;
+    font-size: 28px;
+    color: rgb(0, 183, 255);
+}
+
